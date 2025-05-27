@@ -20,3 +20,21 @@ A beginner-friendly e-commerce store built using **React (Vite)** on the fronten
 
 ## 📁 Project Structure
 
+ecommerce-store/
+├── frontend/ # React App
+├── backend/ # FastAPI App
+
+## 🚀 Getting Started
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+
+### Backend
+
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
